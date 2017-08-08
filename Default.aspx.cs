@@ -47,12 +47,12 @@ namespace ToluVsMoniGame
             if(toluHealth > 0)
             {
                 result += "<br/> Tolu wins!";
-               totalwinner += ++toluHealth ; 
+              // totalwinner += toluHealth ; 
             }
             else
             {
                 result+= "<br/> Moni wins!";
-                totalwinner += ++moniHealth ;
+               //totalwinner += moniHealth ;
                 }
             resultLabel.Text = string.Format( "{0} <br/>  Total win: {1}", result, totalwinner);
             }
